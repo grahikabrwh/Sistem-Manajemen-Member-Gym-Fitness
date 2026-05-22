@@ -20,7 +20,6 @@ struct NodeMember {
 NodeMember *headMember = nullptr;
 NodeMember *tailMember = nullptr;
 
-
 struct Reservasi {
     string namaMember;
     string namaKelas;
@@ -127,7 +126,6 @@ void undoTerakhir(Member daftar[], int &jumlah) {
 
     sinkronisasiArrayDariLinked(daftar, jumlah);
 }
-
 
 void tampilkanMember(Member daftar[], int jumlah) {
     if (jumlah == 0) {
